@@ -38,6 +38,7 @@ setopt pushd_ignore_dups
 setopt pushd_silent
 
 # vi mode
+export KEYTIMEOUT=100
 function zle-keymap-select {
 	if [[ ${KEYMAP} == vicmd ]]; then
 	    echo -ne '\e[2 q'
