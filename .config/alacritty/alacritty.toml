@@ -1,0 +1,16 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/gruvbox_material_hard_dark.toml"
+]
+
+[window]
+padding = {x = 10, y = 10}
+decorations = "buttonless"
+startup_mode = "SimpleFullscreen"
+
+[font]
+size = 14.0
+normal = { family = "FiraCode Nerd Font Mono", style = "Retina" }
+italic = { family = "Iosevka", style = "Italic" }
+bold = { family = "FiraCode Nerd Font Mono", style = "Bold Retina" }
+bold_italic = { family = "Iosevka", style = "Bold Italic" }
