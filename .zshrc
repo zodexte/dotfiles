@@ -53,6 +53,8 @@ zle-line-init() {
 zle -N zle-line-init
 bindkey -v # vi mode
 bindkey -M viins 'kj' vi-cmd-mode # 'kj' as escape key
+bindkey "^P" up-line-or-search
+bindkey "^N" down-line-or-search
 zmodload zsh/complist
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
